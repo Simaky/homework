@@ -3,5 +3,4 @@ language: go
 go:
   - release
   
-script:
-  - go test -v ./...
+
