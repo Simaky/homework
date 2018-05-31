@@ -4,9 +4,6 @@ go:
   - 1.9.x
   - 1.x
 
-before_script:
-  - go get -u gopkg.in/alecthomas/gometalinter.v2
-
 script:
   - gometalinter
   - go test -v 
