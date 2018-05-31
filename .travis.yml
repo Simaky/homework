@@ -4,5 +4,6 @@ go:
   - 1.9.x
   
 script:
+  - make
   - gometalinter
   - go test -v 
