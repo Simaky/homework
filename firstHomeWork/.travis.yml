@@ -1,5 +1,8 @@
 language: go
 go:
   - master
+install:
+  - go get -u github.com/alecthomas/gometalinter
 script:
   - go test -v -race ./...
+  - cd src gometalinter ./src
